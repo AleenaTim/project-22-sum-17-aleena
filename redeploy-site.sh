@@ -2,14 +2,16 @@
 
 tmux kill-session
 
-cd project-22-sum-17-aleena-emily-zareen/
+cd /root/project-22-sum-17-aleena
 
 git fetch && git reset origin/main --hard
 
-source python3-virtualenv/bin/activate
+source "/root/project-22-sum-17-aleena/python3-virtualenv/bin/activate"
 
 pip install -r requirements.txt
 
-tmux new
+NEW_TMUX="redeploy"
 
-flask run --host=0.0.0.0
+RUN="flask run --host=0.0.0.0"
+
+tmux new-session -d -s "$NEW_TMUX" "$RUN"
