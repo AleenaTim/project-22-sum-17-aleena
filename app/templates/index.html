@@ -2,7 +2,7 @@
 
 {% block content %}
 <link rel="stylesheet" href="./static/styles/main.css">
-<title>{% block title %}Aleena Tim{% endblock %}</title>
+<title>{% block title %}{{ allUsers['name'] }}{% endblock %}</title>
 
 <body>
     
@@ -10,9 +10,9 @@
 
     <section class="hero">
         <nav>
-            <img class="logo" src="src/images/logo.png" alt="firstName"/>
+            <img class="logo" src="src/images/logo.png" alt="{{ allUsers['name'].split()[0] }}"/>
             <ul id="nav-list">
-                <li><a href="#about-me">About me</a></li>
+                <li><a href="#about-me">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact-me">Contact</a></li>
             </ul>
@@ -22,16 +22,15 @@
         </nav>
         <div class="hero-area">
           <div class="hero-text">
-              <h1>firstName lastName</h1>
+              <h1>{{ allUsers['name'] }}</h1>
               <p>Aspiring Software Engineer</p>
-              <div class="button"><a href="#about-me">About me</a></div>
           </div>
         </div>
     </section>
     <section class="sub-section" id="about-me">
         <div class="information">
             <h2>About Me</h2>
-            <p>{% block about %}{% endblock %}</p>
+            <p>{{ allUsers['about'] }}</p>
         </div>
         <div class="headshot-container">
             <img class="headshot" src="src/images/headshot.jpg" alt="[profile-picture]"/>
@@ -72,7 +71,7 @@
     </section>
     <footer id="contact-me">
         <h2>Contact me</h2>
-        <p>student@nyu.edu</p>
+        <p>{{ allUsers['social'][3]['link'] }}</p>
     </footer>
   <script>const hamburgerButton = document.getElementById('hamburger')
     const navList = document.getElementById('nav-list')
