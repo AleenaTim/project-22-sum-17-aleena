@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, json,  url_for, request, redirect
+from flask import Flask, render_template, json,  url_for, request, redirect
 from app.map_app import map_app
 from peewee import *
 from playhouse.shortcuts import model_to_dict

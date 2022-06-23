@@ -32,11 +32,38 @@
             <h2>About Me</h2>
             <p>{{ allUsers['about'] }}</p>
         </div>
-        <div class="headshot-container">
+        <!-- <div class="headshot-container">
             <img class="headshot" src="" alt="[profile-picture]"/>
-        </div>
+        </div> -->
     </section>
-    <section class="sub-section-alternative" id="projects">
+
+    <main class="page-content">
+        <div class="card">
+            <div class="content">
+                <h2 class="title">Mountain View</h2>
+                <p class="copy">Check out all of these gorgeous mountain trips with beautiful views of, you guessed it, the mountains</p><button class="btn">View Trips</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2 class="title">To The Beach</h2>
+                <p class="copy">Plan your next beach trip with these fabulous destinations</p><button class="btn">View Trips</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2 class="title">Desert Destinations</h2>
+                <p class="copy">It's the desert you've always dreamed of</p><button class="btn">Book Now</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2 class="title">Explore The Galaxy</h2>
+                <p class="copy">Seriously, straight up, just blast off into outer space today</p><button class="btn">Book Now</button>
+            </div>
+        </div>
+    </main> 
+    <!-- <section class="sub-section-alternative" id="projects">
         <h2>Projects</h2>
         <div class="project-container">
             <div class="project-card">
@@ -68,7 +95,7 @@
               <p class="subtext"><a class="project-link" href="">View here</a></p>
             </div>
         </div>
-    </section>
+    </section> -->
     <footer id="contact-me">
         <h2>Contact me</h2>
         <p>{{ allUsers['social'][3]['link'] }}</p>
