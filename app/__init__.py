@@ -24,8 +24,8 @@ class TimelinePost(Model):
         database = mydb
 
 
-# mydb.connect()
-# mydb.create_tables([TimelinePost])
+mydb.connect()
+mydb.create_tables([TimelinePost])
 
 
 
