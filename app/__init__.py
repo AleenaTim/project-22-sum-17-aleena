@@ -52,7 +52,9 @@ def aleena_portfolio():
 def hobbies():    
     return render_template('hobbies.html')
  
-
+@app.route('/timeline')
+def timeline():
+	return render_template('timeline.html', title="Timeline")
 
 
 @app.route('/api/timeline_post', methods=['POST'])
