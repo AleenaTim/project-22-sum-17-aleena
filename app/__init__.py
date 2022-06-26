@@ -52,8 +52,7 @@ def aleena_portfolio():
 def hobbies():    
     return render_template('hobbies.html')
  
-if __name__ == "__main__":
-    app.run(debug=True)
+
 
 
 @app.route('/api/timeline_post', methods=['POST'])
@@ -63,7 +62,7 @@ def post_time_line_post():
 	content = request.form['content']
 	timeline_post = TimelinePost.create(name=name, email=email, content=content)
 	return model_to_dict(timeline_post)
-    
+
 @app.route('/api/timeline_post', methods=['GET'])
 def get_time_line_post():
 	return {
@@ -73,3 +72,6 @@ def get_time_line_post():
 TimelinePost.select().order_by(TimelinePost.created_at.desc())
 		]
 	}	
+
+if __name__ == "__main__":
+    app.run(debug=True)
