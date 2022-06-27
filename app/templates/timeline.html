@@ -31,12 +31,14 @@
     </form>
   </div>
   
-<div class="posts"><h1>testtt</h1>
-    {% for i in posts %}
-    <h1> {{ i }}</h1>
-    {% endfor %}
+
 </div>
 </body>
+<div class="posts">
+    {% for i in posts %}
+    <h1>{{ i.name }}</h1>
+    <h1>{{ i.content }}</h1>
+    {% endfor %}
 <script>
     const form = document.getElementById('form');
     form.addEventListener('submit', function(e) {
