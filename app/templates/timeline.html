@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="./static/styles/timeline.css">
 
 
-<div class="login-box">
+<div class="post-box">
     <h2>Make a Post</h2>
     <form id="form" class="form">
       <div class="user-box">
@@ -32,11 +32,13 @@
         </button>
     </form>
   </div>
+
+  
   <div id="container">
   {% for i in posts %}
   <div class="content-box">
     <span class="name">{{ i.name }}</span>
-    <span class="datetime">✨</span><br><br>
+    <span class="datetime">{{ i.created_at }}</span><br><br>
     <span class="content">{{ i.content }}</span>
   </div>
   {% endfor %}
