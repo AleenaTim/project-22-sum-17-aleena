@@ -29,14 +29,13 @@
         Submit
         </button>
     </form>
-    <div class="posts">
-        {% for post in posts %}
-        <h1> {{post}}</h1>
-        {% endfor %}
-    </div>
   </div>
   
-
+<div class="posts">
+    {% for post in posts %}
+    <h1> {{ post }}</h1>
+    {% endfor %}
+</div>
 </body>
 <script>
     const form = document.getElementById('form');
