@@ -26,8 +26,8 @@ html {
   margin: 15vh 0 10vh 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  
+ 
   }
   
   .post-box h2 {
