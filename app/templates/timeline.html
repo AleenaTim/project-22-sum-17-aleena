@@ -32,8 +32,8 @@
   </div>
   
 <div class="posts">
-    {% for post in posts %}
-    <h1> {{ post }}</h1>
+    {% for post in range(0, num) %}
+    <h1> {{ posts[post].name }}</h1>
     {% endfor %}
 </div>
 </body>
