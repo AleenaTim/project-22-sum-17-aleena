@@ -24,13 +24,13 @@
       <div class="cut cut-short"></div>
       <label for="email" class="placeholder">Text</>
     </div>
-    <input type="submit" class="submit">Submit</button>
+    <button><input type="submit" class="submit">Submit</button>
   </div>
 
   
 <div class="posts">
     {% for post in posts %}
-    <h3> {{post}}</h3>
+    <div class="subtitle"> {{post}}</div>
     {% endfor %}
 </div>
 
