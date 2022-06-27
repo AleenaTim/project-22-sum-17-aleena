@@ -32,6 +32,7 @@
         </button>
     </form>
   </div>
+  <div id="container">
   {% for i in posts %}
   <div class="content-box">
     <span class="name">{{ i.name }}</span>
@@ -39,6 +40,7 @@
     <span class="content">{{ i.content }}</span>
   </div>
   {% endfor %}
+</div>
 </div>
 </body>
 <script>
