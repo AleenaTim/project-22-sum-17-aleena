@@ -122,7 +122,6 @@ body {
     border-radius: 5px;
     box-shadow: 0 22px 44px rgba(128, 128, 128, 0.1);
     transition: box-shadow .25s;
-    margin: 30px;
     padding: 10px;
     max-width: 50%;
     display: flex;
