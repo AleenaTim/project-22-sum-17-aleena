@@ -122,4 +122,9 @@ body {
   .submit:active {
     background-color: #06b;
   }
-  
+  .posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
