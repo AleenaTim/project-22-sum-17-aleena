@@ -26,4 +26,26 @@
     </div>
     <input type="submit" class="submit">Submit</button>
   </div>
+
+  
+<div class="posts">
+    {% for post in posts %}
+    <h3> {{post}}</h3>
+    {% endfor %}
+</div>
+
+<script>
+    const form = document.getElementById('form');
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const formData = new FormData(form);
+        const payload = new URLSearchParams(formData);
+        fetch('/api/timeline_post', {
+        method: 'POST',
+        body: payload,
+        })
+        .then(res => res.json())
+        .then(data => console.log(data))
+    })
+</script>
 </html>
