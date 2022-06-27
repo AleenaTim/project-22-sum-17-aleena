@@ -113,7 +113,10 @@ body {
     border-radius: 5px;
     box-shadow: 0 22px 44px rgba(128, 128, 128, 0.1);
     transition: box-shadow .25s;
-    padding: 60px;
+    display: flex;
+    flex-flow: column;
+    padding: 50px;
+    margin: 10px;
 }
 
 .content-box .name {
@@ -126,11 +129,12 @@ body {
 .content-box .content {
     color: #4568DC;
     font-size: 20px;
+    padding-top: 15px;
 }
 
 .content-box .datetime {
     color: black;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .content-box .content {
