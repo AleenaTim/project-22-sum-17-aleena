@@ -147,6 +147,7 @@ p {
     display: flex;
     justify-content: space-around;
     padding: 80px;
+    max-width: 60%;
 }
 
 .sub-section-alternative {
