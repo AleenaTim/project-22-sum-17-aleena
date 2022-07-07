@@ -1,3 +1,6 @@
+Check out my portfolio here: http://aleenatim.duckdns.org:5000
+
+
 # :penguin: Pipelining Penguins :penguin: - Team 1 - Portfolio Site
 
 Welcome to the portfolio website for Team 1 of the Pipelining Penguins Pod (22.SUM.17)!<br />
