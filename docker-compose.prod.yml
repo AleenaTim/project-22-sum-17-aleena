@@ -4,7 +4,7 @@ services:
     container_name: myportfolio
     build: .
     restart: always
-    env_file: 
+    env_file:
       - .env
     depends_on:
       - mysql
@@ -17,13 +17,13 @@ services:
       - .env
     volumes:
       - mydatabase:/var/lib/mysql
-   
+
   nginx:
     container_name: nginx
     image: jonasal/nginx-certbot
     restart: always
     environment:
-      - CERTBOT_EMAIL=name@example.com
+      - CERTBOT_EMAIL=aleenatimgmail.com
     ports:
       - 80:80
       - 443:443
@@ -34,5 +34,5 @@ services:
       - myportfolio
 
 volumes:
-  mydatabase: 
+  mydatabase:
   nginx_secrets:
