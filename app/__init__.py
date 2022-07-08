@@ -7,7 +7,7 @@ import folium
 import os
 import json
 from dotenv import load_dotenv
-load_dotenv('.env')
+load_dotenv()
 app = Flask(__name__)
 
 if os.getenv("TESTING") == "true":

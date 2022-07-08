@@ -4,12 +4,6 @@ cd /root/project-22-sum-17-aleena
 
 git fetch && git reset origin/main --hard
 
-source "/root/project-22-sum-17-aleena/python3-virtualenv/bin/activate"
+docker compose -f docker-compose.prod.yml down
 
-pip install -r requirements.txt
-
-RUN="flask run --host=0.0.0.0"
-
-systemctl daemon-reload
-
-systemctl restart myportfolio
+docker compose -f docker-compose.prod.yml up -d --build
