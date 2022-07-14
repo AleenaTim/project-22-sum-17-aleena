@@ -71,7 +71,9 @@ h1 {
     font-size: 50px;
     margin: 0;
 }
-
+.information {
+    color: white;
+}
 h2 {
     font-family: "JetBrains Mono", monospace;
     font-size: 50px;
