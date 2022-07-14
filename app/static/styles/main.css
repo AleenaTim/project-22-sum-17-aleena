@@ -103,8 +103,11 @@ p {
 }
 
 .hero-text {
-    margin-left: 250px;
-    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .button {
