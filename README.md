@@ -37,6 +37,6 @@ $ flask run
 ```
 The terminal will provide an address for you to view the website in a browser.
 
-## Authors :memo:
+## Author :memo:
 * Aleena Tim ([AleenaTim](https://github.com/AleenaTim))*
 
