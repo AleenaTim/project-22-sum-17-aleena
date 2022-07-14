@@ -10,6 +10,7 @@ body {
     justify-content: center;
     position: relative;
     background: #E0EAFC;
+    margin: 40px;
 }
 
 .post-box {
@@ -114,11 +115,11 @@ body {
     border-radius: 5px;
     box-shadow: 0 22px 44px rgba(128, 128, 128, 0.1);
     transition: box-shadow .25s;
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    padding: 20px;
 
 
 }
