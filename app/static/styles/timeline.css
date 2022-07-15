@@ -92,8 +92,8 @@ body {
 }
 
 .post-box button:hover {
-    background: white;
-    color: #4568DC;
+    background: #4568DC;
+    color: white;
     border-radius: 5px;
 }
 
