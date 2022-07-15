@@ -30,7 +30,7 @@
 
 body {
     background-color: #1c1d25;
-    font-family: 'Poppins', sans-serif;
+    font-family: "JetBrains Mono", monospace;
     margin: 0;
 }
 
@@ -67,7 +67,6 @@ li {
 }
 
 h1 {
-    font-family: "JetBrains Mono", monospace;
     font-size: 50px;
     margin: 0;
 }
@@ -75,7 +74,7 @@ h1 {
     color: white;
 }
 h2 {
-    font-family: "JetBrains Mono", monospace;
+    
     font-size: 50px;
 }
 
@@ -84,13 +83,12 @@ p {
 }
 
 .subtext {
-    font-family: "JetBrains Mono", monospace;
     font-size: 15px;
     font-weight: 300;
 }
 
 .hero-area {
-    font-family: "JetBrains Mono", monospace;
+
     display: flex;
     height: 100%;
     justify-content: space-between;
