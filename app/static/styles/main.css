@@ -147,8 +147,9 @@ p {
 .sub-section {
     display: flex;
     justify-content: space-around;
-    padding: 80px;
-    max-width: 60%;
+    padding: 4em 2em;
+    max-width: 69em;
+    margin: 0 auto;
 }
 
 .sub-section-alternative {
@@ -271,6 +272,9 @@ a {
     max-width: 100%;
     margin: 0 auto;
     font-family: var(--font-sans);
+    padding: 4em 2em;
+    max-width: 69em;
+    margin: 0 auto;
 }
 
 @media (min-width: 600px) {

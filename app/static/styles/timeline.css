@@ -106,6 +106,7 @@ body {
     display: grid;
     place-items: center;
     gap: 1rem;
+    margin-bottom: 30px;
 }
 
 .content-box {
