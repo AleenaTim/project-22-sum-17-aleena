@@ -266,12 +266,10 @@ a {
 .page-content {
     display: grid;
     grid-gap: 1rem;
-    padding: 1rem;
-    max-width: 100%;
     margin: 0 auto;
     font-family: var(--font-sans);
     padding: 4em 2em;
-    max-width: 69em;
+    max-width: 94em;
     margin: 0 auto;
 }
 
