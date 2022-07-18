@@ -53,10 +53,7 @@ nav {
     display: flex;
     justify-content: space-between;
 }
-nav:hover {
-    color: lightblue;
-    transition: .5s;
-}
+
 
 ul {
     display: flex;
@@ -210,6 +207,10 @@ hr {
 a {
     text-decoration: none;
     color: white;
+}
+a:hover{
+    color: lightblue;
+    transition: .5s;
 }
 
 .hamburger {
