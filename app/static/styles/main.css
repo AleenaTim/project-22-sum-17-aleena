@@ -53,6 +53,10 @@ nav {
     display: flex;
     justify-content: space-between;
 }
+nav:hover {
+    color: lightblue;
+    transition: .5s;
+}
 
 ul {
     display: flex;
