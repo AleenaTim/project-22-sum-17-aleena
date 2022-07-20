@@ -33,9 +33,9 @@
             <h2>About Me</h2>
             <p>{{ allUsers['about'] }}</p>
         </div>
-        <!-- <div class="headshot-container">
-            <img class="headshot" src="" alt="[profile-picture]"/>
-        </div> -->
+        <div class="headshot-container">
+            <img src="./static/img/aleena_aboutme.jpg"/>
+        </div>
     </section>
 
     <main class="page-content" id="projects">
@@ -51,9 +51,10 @@
     
     <footer id="contact-me">
         <div class="social">
+            <h2>Contact</h2>
             <a href="{{ allUsers['social'][0]['link'] }}"><i class="fab fa-linkedin"></i></a>
             <a href="{{ allUsers['social'][1]['link'] }}"><i class="fab fa-github"></i></a>
-            <a href="{{ allUsers['social'][3]['link'] }}"><i class="fa fa-envelope"></i></a>
+            <a href="aleenatim@gmail.com"><i class="fa fa-envelope"></i></a>
         </div>
     </footer>
   <script>const hamburgerButton = document.getElementById('hamburger')
