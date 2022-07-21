@@ -18,7 +18,7 @@ jobs:
           chmod 600 ~/.ssh/deploy-key.pem
           cat >> ~/.ssh/config <<END
           Host my-vps
-            Host Name $SSH_IP
+            HostName $SSH_IP
             User $SSH_USER
             IdentityFile ~/.ssh/deploy-key.pem
             StrictHostKeyChecking no
